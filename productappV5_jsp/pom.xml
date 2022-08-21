@@ -16,11 +16,14 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 	</properties>
 	<dependencies>
 
-	<!-- jasper : is a engine tomcat that have one responsibility to convert jsp to eq servlet  -->
-	<!-- jasper is not there by default in embedded tomcat ie why we are adding it manually -->
+		<!-- jasper : is a engine tomcat that have one responsibility to convert 
+			jsp to eq servlet -->
+		<!-- jasper is not there by default in embedded tomcat ie why we are adding 
+			it manually -->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
